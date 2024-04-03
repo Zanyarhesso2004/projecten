@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invulformulier</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<body id="Contact">
+
+<nav>
+        <a href="Index.html"></a>
+<ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Canvas.html">Canvas</a></li>
+        <li><a href="Eduarte.html">Eduarte</a></li>
+        <li><a href="Opleidingswijzer.html">Opleidingswijzer</a></li>
+        <li><a href="Locatiegids.html">Locatiegids</a></li>
+        <li><a href="Begeleiding.html">Begeleiding</a></li>
+        <li><a href="Software.html">Software</a></li>
+        <li><a href="Examenplan.HTML">Examenplan</a></li>
+        <li><a href="Ouderavonden.html">Ouderavonden</a></li>
+        <li><a href="BSA.html">BSA</a></li> 
+            
+        <li class="dropdown">
+        <a>Over ons</a>
+        <ul class="dropdown-content">
+        <a href="./img/Video.mov">Erdem</a>
+        <a href="./img/Video2.mov">Zanyar</a>
+</ul>
+</li>
+</ul>
+        <li><a href="Contact.html">Contact</a></li>
+    
+</nav>
+        <form action="verwerk.php" method="POST">
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" id="voornaam" name="voornaam" required><br>
+
+        <label for="achternaam">Achternaam:</label>
+        <input type="text" id="achternaam" name="achternaam" required><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="telefoon">Telefoonnummer (+31):</label>
+        <input type="tel" id="telefoon" name="telefoon" pattern="[+]31[0-9]{9}" required><br>
+
+        <label for="handtekening">Handtekening:</label>
+        <input type="text" id="handtekening" name="handtekening" required><br>
+
+        <label for="datum">Datum invullen:</label>
+        <input type="date" id="datum" name="datum" required><br>
+
+        <input type="submit" value="Verzenden">
+        <form action="bedankt.html" method="POST">
+       
+</form>
+</body>
+</html>

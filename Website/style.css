@@ -1,0 +1,519 @@
+body {
+background-image: url;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+text-align: center;
+}
+
+nav {
+display: flex;
+width: 100%;
+max-height: 100vh;
+align-items: center;
+flex-wrap: wrap;
+background: white;
+justify-content: center; 
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+nav ul {
+display: flex;
+align-items: center;
+list-style-type: none;
+}
+
+nav a {
+color: black;
+}
+
+nav li {
+font-size: 1rem;
+padding: 0 1rem;
+}
+
+.tcr{
+margin-top: 1000;
+float: left;
+}
+
+#foto2{
+position: absolute;
+top: 60%;
+left: 27%; 
+transform: translateX(-50%);
+width: 25%; 
+height: auto; 
+}
+
+#foto3{
+position: absolute;
+top: 60%;
+left: 74%; 
+transform: translateX(-50%);
+width: 25%; 
+height: auto; 
+}
+
+#body1 {
+background: none; 
+background-color: rgb(0, 0, 0); 
+justify-content: center;
+align-items: center;
+height: 6.5vh;
+margin: 0;
+}
+
+#header1 {
+font-size: 5rem; 
+}
+
+#Afbeelding3 {
+position: absolute;
+top: 25%;
+left: 85%;
+transform: translateX(-50%);
+width: 30%; 
+height: auto; 
+}
+
+#lijstContainer {
+position: absolute;
+top: 30%; 
+left: 13%;
+}
+
+#mijnLijst {
+padding: 0;
+font-size: 40px; 
+color: white;
+}
+
+#mijnLijst li {
+margin: 30px;
+}
+
+#canvas {
+background: none; 
+background-color: rgb(0, 0, 0); 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 6.5vh;
+margin: 0;
+color: white;
+}
+
+#header1 {
+font-size: 5rem; 
+}
+
+#Afbeelding4 {
+position: absolute;
+top: 17%;
+left: 80%; 
+transform: translateX(-50%);
+width: 40%; 
+height: 75%; 
+}
+
+#lijstcanvas {
+position: absolute;
+top: 30%; 
+left: 13%;
+color: white;
+}
+
+#mijncanvas {
+padding: 0;
+font-size: 40px; 
+}
+
+#mijncanvas li {
+margin: 30px;
+} 
+
+#opleiding {
+background: none; 
+background-color: rgb(0, 0, 0); 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 6.5vh;
+margin: 0;
+color: white;
+}
+
+#header1 {
+font-size: 5rem; 
+}
+
+#Afbeelding5 {
+position: absolute;
+top: 25%;
+left: 81%; 
+transform: translateX(-50%);
+width: 38%; 
+height: 40%; 
+}
+
+#Afbeelding6 {
+position: absolute;
+top: 65%;
+left: 81%; 
+transform: translateX(-50%);
+width: 38%; 
+height:35%; 
+
+}
+#lijstopleiding {
+position: absolute;
+top: 30%; 
+left: 25%;
+}
+
+#mijnopleiding {
+padding: 0;
+font-size: 40px; 
+}
+
+#mijnopleiding li {
+margin: 30px;
+}
+
+#begeleiding {
+background: none; 
+background-color: rgb(0, 0, 0); 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30vh;
+margin: 0;
+
+}
+#header1 {
+font-size: 5rem; 
+}
+
+#Afbeelding7 {
+position: absolute;
+top: 25%;
+left: 80%; 
+transform: translateX(-50%);
+width: 40%; 
+height: 75%; 
+}
+
+#lijstbeg {
+position: absolute;
+top: 30%;
+left: 13%;
+}
+
+#mijnbeg {
+padding: 0;
+font-size: 40px; 
+}
+
+#mijnbeg li {
+margin: 30px;
+}
+
+#Locatiegids {
+background: none; 
+background-color: rgb(0, 0, 0); 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 6.5vh;
+margin: 0;
+color: white
+}
+
+#header1 {
+font-size: 5rem; 
+}
+
+#Afbeelding8 {
+position: absolute;
+top: 25%;
+left: 80%; 
+transform: translateX(-50%);
+width: 40%; 
+height: 70%; 
+}
+
+#lijstloc {
+position: absolute;
+top: 40%;
+left: 13%;
+}
+
+#mijnloc {
+padding: 0;
+font-size: 40px; 
+}
+
+#mijnloc li {
+margin: 30px;
+}
+
+ul li a {
+color: rgb(0, 0, 0); 
+text-decoration:underline; 
+}
+
+#Software {
+background: none; 
+background-color: rgb(0, 0, 0); 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 6.5vh;
+margin: 0;
+color: white;
+}
+
+#header1 {
+font-size: 5rem; 
+}
+
+#Afbeelding9 {
+position: absolute;
+top: 25%;
+left: 80%; 
+transform: translateX(-50%);
+width: 40%; 
+height: 75%;
+}
+
+#lijstsof {
+position: absolute;
+top: 30%; 
+left: 13%;
+}
+
+#mijnsof {
+padding: 0;
+font-size: 40px; 
+}
+
+#mijnsof li {
+margin: 30px;
+}
+
+#examenplan {
+background: none;
+background-color: rgb(0, 0, 0); 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 6.5vh;
+margin: 0;
+color: white;
+}
+
+#header1 {
+font-size: 5rem; 
+}
+
+#Afbeelding11 {
+position: absolute;
+top: 25%;
+left: 80%; 
+transform: translateX(-50%);
+width: 40%; 
+height: 75%; 
+}
+
+#lijstex {
+position: absolute;
+top: 30%; 
+left: 13%;
+}
+
+#mijnex {
+padding: 0;
+font-size: 40px; 
+}
+
+#mijnex li {
+margin: 30px;
+}
+
+#Ouderavonden {
+background: none;
+background-color: rgb(0, 0, 0); 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 6.5vh;
+margin: 0;
+color: white;
+}
+
+#header1 {
+font-size: 5rem; 
+}
+
+#Afbeelding12 {
+position: absolute;
+top: 25%;
+left: 80%; 
+transform: translateX(-50%);
+width: 40%; 
+height: 75%; 
+}
+
+#lijstoud {
+position: absolute;
+top: 30%;
+left: 10%;
+}
+
+#mijnoud {
+padding: 0;
+font-size: 35px; 
+}
+
+#mijnoud li {
+margin: 30px;
+}
+
+#bsa {
+background: none; 
+background-color: rgb(0, 0, 0); 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 6.5vh;
+margin: 0;
+color: white;
+}
+
+#header1 {
+font-size: 5rem; 
+}
+
+#Afbeelding14 {
+position: absolute;
+top: 25%;
+left: 80%; 
+transform: translateX(-50%);
+width: 40%; 
+height: 75%; 
+}
+
+#lijstbsa {
+position: absolute;
+top: 30%; 
+left: 13%;
+}
+
+#mijnbsa {
+padding: 0;
+font-size: 40px; 
+}
+
+#mijnbsa li {
+margin: 30px;
+}
+
+#Contact{
+background: none;
+background-image: n;
+}
+
+form {
+width: 50%; 
+margin: 0 auto; 
+padding: 20px;
+background-color: rgb(255, 255, 255); 
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+form input {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+form label {
+font-size: 18px;
+font-weight: bold;
+}
+
+form input[type="submit"] {
+background-color: #007bff; 
+color: #fff; 
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 18px;
+cursor: pointer;
+}
+
+form input[type="date"] {
+width: 100%;
+}
+
+form input[type="text"] {
+width: 100%;
+height: 100px; 
+}
+
+.dropbtn {
+background-color: #ffffff;
+padding: 16px;
+font-size: 16px;
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: black;
+min-width: 20px;
+box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0);
+z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-left: -40px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: white;}
+
+body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+body {
+color: rgb(255, 0, 0);
+background-color: black;
+}
