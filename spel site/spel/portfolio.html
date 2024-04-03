@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Website</h1>
     </header>
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -29,8 +30,28 @@
         </ul>
     </nav>
 
-    <img id="welk" src="./img/image 15.png" alt="">
+   <img class="imgright" src="./img/image 21.png" alt="portfolio">
 
+    <div class="right-div">
+        <ul>
+            <li>Zanyar</li>
+        </ul>
+    </div>
+    <nav>
+        <ul>
+            <li><button onclick="toonFoto()">Foto</button></li>
+            <li><button onclick="toonContact()">Contact</button></li>
+            <li><button onclick="toonPitch()">Pitch</button></li>
+            <li><button onclick="toonProjecten()">Projecten</button></li>
+            <li><button onclick="toonVaardigheden()">Vaardigheden</button></li>
+            <li><button onclick="toonErvaring()">Ervaring</button></li>
+        </ul>
+    </nav>
+    
+    <main id="display-gebied">
+       
+    </main>
+    <script src="app.js"></script>
     <footer>
         <p>TechniekCollegeRotterdam@gmail.com</p>
         <p>&copy; 2023 Website Name. All rights reserved.</p>

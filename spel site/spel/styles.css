@@ -1,26 +1,209 @@
 body {
-    background-color: #989191;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: #006975;
 }
 
-.game-container {
+header {
+    background: rgb(28, 154, 169);
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(28, 154, 169);
+    color: black;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+nav .dropdown {
     position: relative;
 }
 
-canvas {
-    border: 2px solid #ffffff;
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #53929A;
+    box-shadow: 0 8px 16px black;
+    z-index: 1;
 }
 
-#startButton {
-    font-size: 16px;
-    padding: 10px 20px;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
+nav .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
 }
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: rgb(28, 154, 169);
+    color: black;
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+    position: relative;
+    width: 98%;
+    clear: both;
+}
+
+.right-div {
+    width: 50%;
+    height: 10%;
+    background-color: rgb(75, 196, 232);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.right-div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-div li {
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 0;
+    margin-right: 40px; /* Voeg afstand tussen de woorden toe */
+    color: black;
+    display: inline;
+}
+
+#welk {
+    height: 100vh;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+.imgright {
+    float: right;
+    
+}
+
+.imgright {
+    float: left; 
+    margin-right: 20px; 
+}
+
+.imgright {
+    float: right; 
+    margin-right: auto; 
+}
+
+#moba{
+    width: 32%; /* Pas deze waarde aan naar de gewenste breedte */
+    height: 70vh;
+    float: right;
+}
+
+.tekst h2 {
+    margin-left: 10px;
+}
+
+.tekst li {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 30px;
+    color: black;
+}
+
+.tekst p {
+    font-size: 20px; /* Pas deze waarde aan naar de gewenste grootte */
+    margin-top: 5%;
+    margin-left: 10px;
+}
+
+.content p {
+    font-size: 20px; /* Pas deze waarde aan naar de gewenste grootte */
+    margin-top: 5%;
+    margin-left: 10px;
+}
+
+.content p + p {
+    margin-top: 20px; /* Voeg hier de gewenste afstand tussen alinea's toe */
+}
+
+
+
+.div {
+    margin-top: 10%; /* alle div regels beginnen van hier (er is alleen maar en div regel) */
+    margin-bottom: 10%; 
+    margin-left: 10px;
+}
+
+.div ul {
+    list-style-type: none;
+}
+
+.div li {
+    font-size: 30px;
+    margin-top: 10%; 
+    margin-left: 30px;
+    color: black;
+}
+
+
+.text ul {
+    list-style-type: none;
+}
+
+.text li {
+    font-size: 35px;
+    margin-top: 10%; 
+    margin-left: 30px;
+    color: black;
+}
+
+.par {
+    font-size: 30px;
+    margin-top: 10%; 
+    margin-left: 40px;
+}
+#display-gebied img {
+    width: 300px; 
+    height: 560px; 
+}
+
+#display-gebied {
+    font-size: 20px;
+}   
+
+.container1 {
+    text-align: center;
+}
+
+#mak {
+    padding: 20px 30px;
+    font-size: 30px;
+    background-color: #18c5c8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 17%
+}
+
