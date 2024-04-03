@@ -1,0 +1,26 @@
+body {
+    background-color: #989191;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    position: relative;
+}
+
+canvas {
+    border: 2px solid #ffffff;
+}
+
+#startButton {
+    font-size: 16px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
