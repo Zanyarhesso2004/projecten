@@ -1,0 +1,331 @@
+
+.black-div {
+    background-color: #131c27;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+
+.black-div p {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+
+.loc, .ben, .con {
+    position: absolute;
+    text-transform: lowercase;
+    top: 30px;
+    left: 57%;
+}
+
+.ben {
+    position: absolute;
+    top: 30px;
+    left: 70%;
+}
+
+.con {
+    position: absolute;
+    top: 30px;
+    left: 83%;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, #sta, #contact {
+    position: absolute;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+}
+
+#sta {
+    top: 70%;
+    left: 50%;
+    font-size: 30px;
+}
+
+#contact {
+    bottom: 9%;
+    left: 50%;
+    font-size: 30px;
+}
+
+.book-now-square {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4c6e97;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.image-container .image-text, .image-container .image-paragraph, .image-container .paragraph {
+    position: absolute;
+    left: 5%;
+}
+
+.image-container .image-text {
+    top: 30%;
+    font-size: 40px;
+    border-bottom: 2px solid #4c6e97;
+    padding-bottom: 10px;
+}
+
+.image-container .image-paragraph {
+    top: 40%;
+    font-size: 20px;
+    font-family: 'Your-Handwriting-Font', cursive;
+}
+
+.image-container .paragraph {
+    top: 43%;
+    font-size: 20px;
+    font-family: 'Your-Handwriting-Font', cursive;
+}
+
+.black-background, .black-background1, .black-background2 {
+    background-color: #131c27;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: -60px;
+    font-family: 'Your-Handwriting-Font', cursive;
+}
+
+.black-background1, .black-background2 {
+    font-size: 28px;
+    margin-top: -70px;
+}
+
+.white-div, .white-div1, .white-div2 {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .loc, .ben, .con {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    .black-div, .black-div p {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .square, .square1, .square2 {
+        margin-right: 0;
+        margin-left: 0; 
+        margin-top: 10px; 
+        width: 80%;
+        font-size: 18px; 
+    }
+
+
+}
+
+
+
+.square {
+    background-color: rgb(141, 141, 141);
+    color: black;
+    width: 250px; 
+    height: 270px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px; 
+    margin: 10px; 
+    margin-right: 70%; 
+    margin-top: 10%;
+}
+
+.square1 {
+    background-color: rgb(141, 141, 141);
+    color: black;
+    width: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    margin-right: 50px;
+    margin-top: -26%; 
+}
+
+.square2 {
+    background-color: rgb(141, 141, 141);
+    color: black;
+    width: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 70%;
+    margin-top: -33%;
+}
+
+
+.white-inner-div, .white-inner-div1, .white-inner-div2 {
+    background-color: #131c27;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin: -47% auto 0;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.small-image, .small-image1, .small-image2 {
+    max-width: 17%;
+    height: auto;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20%;
+}
+
+.contact-section {
+    position: relative;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 50px;
+}
+
+.contact-section img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #131c27;
+    padding: 60px;
+    border-radius: 30px;
+    text-align: center;
+    width: 80%;
+    max-width: 40%;
+}
+
+.contact-form h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-form label, .contact-form input {
+    display: block;
+    margin: 20px 0;
+}
+
+.contact-form input {
+    width: 90%;
+    padding: 15px;
+    border: none;
+}
+
+.contact-form button {
+    background-color: #4c6e97;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-form label, .contact-form input {
+    display: block;
+    margin: 20px 10px;
+}
+
+.footer {
+    background-color: #131c27; 
+    color: #fff; 
+    padding: 30px;
+    text-align: right;
+}
+
+.youtube-link, .instagram-link, .twitter-link {
+    text-decoration: none; 
+    color: #fff; 
+    margin: 0 60px 0 80px; 
+}
+
+.footer img {
+    width: 30px; 
+    height: auto;
+    margin-right: 70px; 
+}
+
+.travelly-text {
+    margin-right: 35%; 
+    padding: 20px;
+    margin-top: -10px; 
+    font-size: 24px;
+    font-family: 'Shadows Into Light', cursive;
+
+
+}
+
+
